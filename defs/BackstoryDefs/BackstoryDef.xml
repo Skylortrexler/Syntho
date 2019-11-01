@@ -1,0 +1,2311 @@
+<Defs>
+
+
+<!--Vatgrown Base-->
+<!--alienRace.BackstoryDef>
+	<defName>VatGrown1</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef-->
+<!--Vatgrown stuffs-->
+<alienRace.BackstoryDef>
+	<defName>VatGrown1</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown2</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+   	  <li>
+		<defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+     </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown3</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown4</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown5</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown6</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown7</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown8</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown9</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown10</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown11</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown12</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<!--Double Gains-->
+<alienRace.BackstoryDef>
+	<defName>VatGrown13</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown14</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown15</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown16</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown17</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown18</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown19</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown20</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown21</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown22</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown23</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown24</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown25</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown26</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown27</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown28</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown29</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown30</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+		<amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown31</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown32</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown33</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown34</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown35</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown36</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown37</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown38</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown39</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown40</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown41</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown42</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown43</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown44</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown45</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown46</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown47</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown48</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown49</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown50</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown51</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown52</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown53</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown54</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown55</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown56</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown57</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown58</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown59</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown60</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown61</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown62</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown63</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown64</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown65</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown66</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown67</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown68</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown69</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown70</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown71</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown72</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown73</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown74</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown75</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown76</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrown77</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+<alienRace.BackstoryDef>
+	<defName>VatGrown78</defName>
+	<title>Vatgrown person</title>
+    <titleShort>Vatgrown</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+		<defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+		<defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</alienRace.BackstoryDef>
+
+
+<!--Fail-->
+<alienRace.BackstoryDef>
+	<defName>VatGrownFail</defName>
+	<title>Vatgrown failure</title>
+    <titleShort>Failure</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology, but something went wrong.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <forcedTraits>
+        <li>
+            <defName>Beauty</defName>
+            <degree>-2</degree>
+        </li>
+    </forcedTraits>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrownFail2</defName>
+	<title>Vatgrown failure</title>
+    <titleShort>Failure</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology, but something went wrong.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <forcedTraits>
+        <li>
+            <defName>Neurotic</defName>
+            <degree>2</degree>
+        </li>
+    </forcedTraits>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrownFail3</defName>
+	<title>Vatgrown failure</title>
+    <titleShort>Failure</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology, but something went wrong.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <forcedTraits>
+		<li>
+            <defName>PsychicSensitivity</defName>
+            <degree>-2</degree>
+			<chance>50</chance>
+        </li>
+		<li>
+            <defName>PsychicSensitivity</defName>
+            <degree>2</degree>
+			<chance>50</chance>
+        </li>
+    </forcedTraits>
+</alienRace.BackstoryDef>
+<alienRace.BackstoryDef>
+	<defName>VatGrownFail4</defName>
+	<title>Vatgrown failure</title>
+    <titleShort>Failure</titleShort>
+    <baseDescription>NAME was grown in a vat with speed-aging technology, but something went wrong.</baseDescription>
+	<slot>Childhood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <forcedTraits>
+		<li>
+            <defName>Industriousness</defName>
+            <degree>-2</degree>
+        </li>
+    </forcedTraits>
+</alienRace.BackstoryDef>
+
+<!--====Adulthood====-->
+
+<alienRace.BackstoryDef>
+	<defName>PleasureDenWorker</defName>
+	<title>Pleasure den worker</title>
+    <titleShort>Pleaser</titleShort>
+    <baseDescription>NAME worked in a pleasure den as a companion.</baseDescription>
+	<slot>Adulthood</slot>
+	<spawnCategories>
+      <li>SynthoBackstory</li>
+    </spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+	<forcedTraits>
+        <li>
+		<defName>Beauty</defName>
+		<degree>2</degree>
+		</li>
+    </forcedTraits>
+	    <workDisables>
+        <li>ManualDumb</li>
+		</workDisables>
+</alienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>MedicalExpierment</defName>
+    <title>Medical experiment</title>
+    <titleShort>Experiment</titleShort>
+    <baseDescription>NAME was experimented on relentlessly by doctors.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>Beauty</defName>
+		<degree>-1</degree>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArcadeManager</defName>
+    <title>Arcade manager</title>
+    <titleShort>Manager</titleShort>
+    <baseDescription>NAME managed and maintained a full arcade.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>NightOwl</defName>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Eceleb</defName>
+    <title>Exonet vlogger</title>
+    <titleShort>Vlogger</titleShort>
+    <baseDescription>Famous on many Glitterworlds, NAME Vlogged almost every moment of HIS lives.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>CookShow</defName>
+    <title>Exonet cook</title>
+    <titleShort>E-Cook</titleShort>
+    <baseDescription>NAME hosted a show on the Exonet about cooking.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Gladiator</defName>
+    <title>Hyper gladiator</title>
+    <titleShort>Gladiator</titleShort>
+    <baseDescription>NAME participated in many games of strength and skill.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>Nimble</defName>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>HyperGrower</defName>
+    <title>Mega-farm tender</title>
+    <titleShort>Mega-Farmer</titleShort>
+    <baseDescription>NAME tended to crops on a Mega-Farm.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>GreenThumb</defName>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Growing</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>SpaceMan</defName>
+    <title>Asteroid miner</title>
+    <titleShort>Exo-Miner</titleShort>
+    <baseDescription>NAME mined for minerals on asteroids around their home planet.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Librarian</defName>
+    <title>Exonet librarian</title>
+    <titleShort>E-Librarian</titleShort>
+    <baseDescription>NAME maintained a database of data on the Exonet.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Janitor</defName>
+    <title>Janitor</title>
+    <titleShort>Janitor</titleShort>
+    <baseDescription>NAME was a janitor in a ultrastructure.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>SpeedOffset</defName>
+		<degree>1</degree>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Sculptor</defName>
+    <title>Sculptor</title>
+    <titleShort>Sculptor</titleShort>
+    <baseDescription>NAME created many works of art out of stone, clay and wood.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Rancher</defName>
+    <title>Rancher</title>
+    <titleShort>Rancher</titleShort>
+    <baseDescription>NAME raised and cared for many animals on a Mega-Farm.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>SportShot</defName>
+    <title>Competitive shooter</title>
+    <titleShort>Hot Shot</titleShort>
+    <baseDescription>NAME spent many days in the shooting range training.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>ShootingAccuracy</defName>
+						<degree>1</degree>
+						<chance>50</chance>
+			</li>
+			<li>
+				<defName>ShootingAccuracy</defName>
+						<degree>-1</degree>
+						<chance>50</chance>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>CropArtist</defName>
+    <title>Natural artist</title>
+    <titleShort>Artist</titleShort>
+    <baseDescription>NAME created unconventional art using plants.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Growing</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Camgirl</defName>
+    <title>VR pornstar</title>
+    <titleShort>pornstar</titleShort>
+    <baseDescription>NAME showed HIS bits for Bits.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>Beauty</defName>
+		<degree>1</degree>
+		<chance>90</chance>
+		</li>
+        <li>
+		<defName>Beauty</defName>
+		<degree>2</degree>
+		<chance>10</chance>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>UnlicensedPharmacist</defName>
+    <title>Unlicensed pharmacist</title>
+    <titleShort>Pharmacist</titleShort>
+    <baseDescription>NAME bought and sold many drugs on the street to get by.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>DigitalBanker</defName>
+    <title>Crypto banker</title>
+    <titleShort>E-Banker</titleShort>
+    <baseDescription>NAME processed transactions for Cryptocurreny banks.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Codedealer</defName>
+    <title>Code dealer</title>
+    <titleShort>Dealer</titleShort>
+    <baseDescription>NAME bought and sold exclusive and illegal code.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	<forcedTraits>
+        <li>
+		<defName>TooSmart</defName>
+		</li>
+    </forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Exile</defName>
+    <title>Exile</title>
+    <titleShort>Exile</titleShort>
+    <baseDescription>NAME did something terrible and was exiled from society because of it.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+	        <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Revolt</defName>
+    <title>Revolutionist</title>
+    <titleShort>Revolutionist</titleShort>
+    <baseDescription>NAME participated in a revolution to free their people. They were removed from the colony because of it.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Brawler</defName>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+	        <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>GMechanic</defName>
+    <title>Glitter mechanic</title>
+    <titleShort>Mechanic</titleShort>
+    <baseDescription>NAME maintained many machines, big and small.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+	  <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>WaterPurifier</defName>
+    <title>Water purity enforcer</title>
+    <titleShort>Purifier</titleShort>
+    <baseDescription>NAME helped purify water for the populace.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>4</amount>
+      </li>
+	  <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Furniture</defName>
+    <title>Living furniture</title>
+    <titleShort>Furniture</titleShort>
+    <baseDescription>NAME was used as a piece of furniture for most of their lives.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Masochist</defName>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>ArtPiece</defName>
+    <title>Living art</title>
+    <titleShort>Art</titleShort>
+    <baseDescription>NAME spent most days posed in a traveling art installation.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Nudist</defName>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>2</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Demoman</defName>
+    <title>Demolitionist</title>
+    <titleShort>Demo</titleShort>
+    <baseDescription>Sometimes, to create, you must destroy. NAME did just that.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Pyromaniac</defName>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+	        <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>STrader</defName>
+    <title>Syntho dealer</title>
+    <titleShort>Slaver</titleShort>
+    <baseDescription>NAME made their way buying and selling their own kind on the black market.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+		<forcedTraits>
+			<li>
+				<defName>Psychopath</defName>
+			</li>
+		</forcedTraits>
+	 <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+	  <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>Underminer</defName>
+    <title>Undercity miner</title>
+    <titleShort>Miner</titleShort>
+    <baseDescription>NAME mined out old buildings, ores and rock beneath the city.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>GlitterChef</defName>
+    <title>Glitter chef</title>
+    <titleShort>Chef</titleShort>
+    <baseDescription>NAME was a chef for a very rich Glitterworlder.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>GSecurity</defName>
+    <title>Glitter security</title>
+    <titleShort>Security</titleShort>
+    <baseDescription>NAME was an Enforcer employed by a megacorporation.</baseDescription>
+	<slot>Adulthood</slot>
+		<spawnCategories>
+      <li>SynthoBackstory</li>
+		</spawnCategories>
+	 <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+	  </skillGains>
+</AlienRace.BackstoryDef>
+</Defs>

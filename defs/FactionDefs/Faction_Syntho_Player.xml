@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="SynthoPlayerFactionBase">
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>SynthoColony</defName>
+    <label>Synthetic Dawn</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Syntho</basicMemberKind>
+    <pawnsPlural>Syntho</pawnsPlural>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>SynthoBackstory</backstoryCategory>
+    <expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
+	<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+	<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+	<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+	<geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+		<li>ClassicStart</li>
+	</startingResearchTags>
+	<hairTags>
+		<li>Syntho</li>
+		<li>Rural</li>
+		<li>Tribal</li>
+		<li>Urban</li>
+	</hairTags>
+		<!--apparelStuffFilter>
+			<thingDefs>
+				<li>Hyperweave</li>
+			</thingDefs>
+		</apparelStuffFilter-->
+	</FactionDef>
+
+	<FactionDef>
+    <defName>SynthoNoPlayer</defName>
+    <label>Syntho</label>
+    <description>Synthetic people.</description>
+    <pawnsPlural>Syntho</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>Syntho</fixedName>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+    <humanlikeFaction>true</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Ultra</techLevel>
+    <startingGoodwill>
+      <min>0</min>
+      <max>0</max>
+    </startingGoodwill>
+    <mustStartOneEnemy>false</mustStartOneEnemy>
+    <naturalColonyGoodwill>
+      <min>0</min>
+      <max>-0</max>
+    </naturalColonyGoodwill>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+    <allowedArrivalTemperatureRange>
+      <min>0</min>
+      <max>45</max>
+    </allowedArrivalTemperatureRange>
+	<backstoryCategory>SynthoBackstory</backstoryCategory>
+			<hairTags>
+			<li>Syntho</li>
+			<li>Rural</li>
+			<li>Tribal</li>
+			<li>Urban</li>
+		</hairTags>
+  </FactionDef>
+</Defs>

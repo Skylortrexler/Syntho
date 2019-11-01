@@ -1,0 +1,32 @@
+V1.2 - Content
+Reduced mining speed by 0.25 (1.25 > 1)
+Reduced shooting accuracy by 0.15 (1.25 > 1.1)
+Reduced global workspeed by 0.05 (1.25 > 1.2)
+Syntho can now be upset that they are naked.
+Syntho are now (mostly) immune to old age effects gained though birthday events. Can still generate with them though.
+"Vat grown person' changed to "Vatgrown person".
+Passion supersaturation has been fixed. To solve this, "Vatgrown person" was separated into 78 different childhoods. This means every syntho is less impressive in general, but specialized leading to more interesting pawns.
+Added four new "vatgrown failure" childhoods. Due to the massive amount of childhoods, these are rare.
+Added nine new adulthood backstories
+Increased scenario starting meals to 152. This gives you 20-30 days to get some enargo grown. 
+Glitter Coat and Bodysuit can now be crafted with all cloths, leathers, and metals. Let your inner fashionista shine!
+Glitter Pistol can now be made out of all metals
+GPistol component cost reduced by 5 (10 > 5)
+Added Glitter Rifle. Made of all metals. Slightly stronger than the assault rifle, but only two shot burst. Accurate at long range, not so much up close. 
+Fixed EPOE and RBSE not working properly.
+"VR camgirl" changed to "VR pornstar" because I can't get it to stop spawning on males.
+Updated weapon textures. Thanks Neil!
+
+1.2.1
+Fixed meals being 150 instead of 152
+Fixed starting glitter pistol in the scenario being made of null
+
+1.3 - Options
+Syntho can now use all vanilla hairs.
+Added syntho alternatives.(Gazelle/Cow) complete with biome patch to spawn them where needed. 
+Enargo growable by all
+Enargo Meal changed to Simple Enargo Meal. Gluttonous Joy reduced by 0.10 (0.25 > 0.15) Cost to produce reduced by 0.2 (0.8 > 0.6) Now producable with mini-enargo. Price reduced by 5 (30 > 25)
+Lavish Enargo Meal added. Made with Enargo, Mini Enargo and Liquid Enargo.
+New Enargo types added. Mini and Liquid. Made with help from E-Gazelle and E-Cow. Edible but not as helpful as Enargo.
+Adjusted starting scenario to include an E-Gazelle, won't help immediately but should give a small reduction to the stress of getting your first enargo harvest.
+Added Enargo Blender to convert unused food into Enargo Paste. It's inefficent (input is 1.0 nutrients and output is a meal with 0.8n) but it's fast and useful for people who obtain a Syntho colonist late game.

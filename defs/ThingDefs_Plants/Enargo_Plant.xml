@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>PlantEnargo</defName>
+		<label>Enargo plant</label>
+		<description>A small flower that stores solar energy using it's pedals in a small biochemical cell in it's stem.</description>
+		<statBases>
+		    <ComfyTemperatureMin>0</ComfyTemperatureMin>
+       <ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MaxHitPoints>85</MaxHitPoints>
+		</statBases>
+		<graphicData>
+			<texPath>Enargo/Plant/EnargoPlant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<pathCost>10</pathCost>
+		<ingestible>
+			<nutrition>0.0</nutrition>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
+		<plant>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<dieIfLeafless>true</dieIfLeafless>
+			<reproduces>false</reproduces>
+			<maxMeshCount>4</maxMeshCount>
+			<harvestTag>Standard</harvestTag>
+			<harvestedThingDef>RawEnargo</harvestedThingDef>
+			<harvestYield>10</harvestYield>
+			<sowTags>
+				<li>Ground</li>
+				<li>Hydroponic</li>
+			</sowTags>
+			<topWindExposure>0.1</topWindExposure>
+			<growDays>11</growDays>
+			<visualSizeRange>
+				<min>0.3</min>
+				<max>0.8</max>
+			</visualSizeRange>
+		</plant>
+	</ThingDef>
+
+</Defs>

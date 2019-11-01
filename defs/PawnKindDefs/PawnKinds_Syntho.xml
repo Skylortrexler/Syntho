@@ -1,0 +1,32 @@
+<Defs>
+<PawnKindDef>
+    <defName>SynthoSlave</defName>
+    <label>Syntho Slave</label>
+    <race>Alien_Syntho</race>
+	<defaultFactionType>SynthoColony</defaultFactionType>
+	<combatPower>50</combatPower>
+	    <apparelMoney>
+      <min>0</min>
+      <max>100</max>
+    </apparelMoney>
+	<backstoryCategory>SynthoBackstory</backstoryCategory>
+</PawnKindDef>
+<PawnKindDef>
+    <defName>SynthoRefugee</defName>
+    <label>Syntho Refugee</label>
+    <race>Alien_Syntho</race>
+	<defaultFactionType>SynthoColony</defaultFactionType>
+	<combatPower>50</combatPower>
+	<forceNormalGearQuality>true</forceNormalGearQuality>
+	<gearHealthRange>
+      <min>0.4</min>
+      <max>1.4</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>100</min>
+      <max>1000</max>
+    </apparelMoney>
+	<apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance>
+	<backstoryCategory>SynthoBackstory</backstoryCategory>
+</PawnKindDef>
+</Defs>

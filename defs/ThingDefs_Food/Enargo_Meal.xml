@@ -1,0 +1,108 @@
+<Defs>
+    <ThingDef Name="MealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+			<Beauty>-4</Beauty>
+			<Mass>0.44</Mass>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+    </ingestible>
+  </ThingDef>
+  
+    <ThingDef ParentName="MealBase">
+    <defName>EnargoMealS</defName>
+    <label>simple Enargo Meal</label>
+	<category>Item</category>
+    <description>Basically just a pile of Enargo on a plate. Not very efficient.</description>
+    <graphicData>
+      <texPath>Enargo/Meal/MealSimple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+      <Mass>0.4</Mass>
+      <DeteriorationRate>2.05</DeteriorationRate>
+    </statBases>
+    <stackLimit>25</stackLimit>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <preferability>MealFine</preferability>
+      <nutrition>0.9</nutrition>
+      <joy>0.15</joy>
+      <joyKind>Gluttonous</joyKind>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+      <ThingDef ParentName="MealBase">
+    <defName>EnargoMealL</defName>
+    <label>Lavish Enargo Meal</label>
+	<category>Item</category>
+    <description>Enargo with a side of Mini-Enargo and a glass of Liquid Enargo. Now this is living!</description>
+    <graphicData>
+      <texPath>Enargo/Meal/MealLavish</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>30.0</MarketValue>
+      <Mass>0.4</Mass>
+      <DeteriorationRate>2.05</DeteriorationRate>
+    </statBases>
+    <stackLimit>25</stackLimit>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <preferability>MealLavish</preferability>
+	  <tasteThought>AteLavishMeal</tasteThought>
+      <nutrition>1</nutrition>
+      <joy>0.25</joy>
+      <joyKind>Gluttonous</joyKind>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="MealBase">
+    <defName>EnargoPaste</defName>
+    <label>Enargo Paste Meal</label>
+    <description>Normally when you mash Enargo, it explodes. The fact that you are eating this is a miracle of science.</description>
+    <graphicData>
+      <texPath>Enargo/Meal/EPaste</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+			<tasteThought>AteAwfulMeal</tasteThought>
+			<nutrition>0.80</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+</Defs>
