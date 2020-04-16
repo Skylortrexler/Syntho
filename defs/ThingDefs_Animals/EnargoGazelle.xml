@@ -1,8 +1,8 @@
 <Defs>  
   <ThingDef ParentName="AnimalThingBase">
     <defName>EnargoGazelle</defName>
-    <label>e-gazelle</label>
-    <description>a genetically modified gazelle designed to be both a friend and source of food, when in need. Drastically reduced lifespan.</description>
+    <label>s-gazelle</label>
+    <description>Genetically modified to have lightbulb like growths on it's horns, this Gazelle is both friend and food of Syntho.</description>
     <statBases>
       <MoveSpeed>6.2</MoveSpeed>
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
@@ -12,7 +12,7 @@
       <li Class="CompProperties_Milkable">
         <milkDef>MiniEnargo</milkDef>
         <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>4</milkAmount>
+        <milkAmount>8</milkAmount>
 		<milkFemaleOnly>false</milkFemaleOnly>
       </li>
     </comps>
@@ -53,7 +53,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -63,9 +63,9 @@
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(214,134,59)</leatherColor>
-      <leatherInsulation>0.75</leatherInsulation>
+      <leatherDef>Leather_Plain</leatherDef>
       <wildness>0.75</wildness>
+	  <trainability>Simple</trainability>
       <gestationPeriodDays>15</gestationPeriodDays>
       <lifeExpectancy>3</lifeExpectancy>
       <lifeStageAges>
@@ -90,15 +90,14 @@
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>EnargoGazelleMag</defName>
-    <label>e-gazelle</label>
+    <label>s-gazelle</label>
     <race>EnargoGazelle</race>
     <combatPower>40</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -110,8 +109,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.65</drawSize>
+          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
+          <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

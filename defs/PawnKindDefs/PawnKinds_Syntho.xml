@@ -1,5 +1,5 @@
 <Defs>
-<PawnKindDef>
+<!--PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>SynthoSlave</defName>
     <label>Syntho Slave</label>
     <race>Alien_Syntho</race>
@@ -9,9 +9,15 @@
       <min>0</min>
       <max>100</max>
     </apparelMoney>
-	<backstoryCategory>SynthoBackstory</backstoryCategory>
-</PawnKindDef>
-<PawnKindDef>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SynthoBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+</PawnKindDef-->
+<PawnKindDef ParentName="BasePlayerPawnKind">
     <defName>SynthoRefugee</defName>
     <label>Syntho Refugee</label>
     <race>Alien_Syntho</race>
@@ -26,7 +32,77 @@
       <min>100</min>
       <max>1000</max>
     </apparelMoney>
-	<apparelAllowHeadwearChance>0.5</apparelAllowHeadwearChance>
-	<backstoryCategory>SynthoBackstory</backstoryCategory>
+		<apparelTags>
+			<li>Syntho</li>
+		</apparelTags>
+			<weaponTags>
+			<li>Gun</li>
+			<li>NonNeolithicOnlyMelee</li>
+		</weaponTags>
+		<weaponMoney>
+			<min>200</min>
+			<max>500</max>
+		</weaponMoney>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SynthoBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
 </PawnKindDef>
+        <pawnKindSettings>
+			<alienslavekinds>
+				<li>
+					<kindDefs>
+						<li>SynthoSlave</li>
+					</kindDefs>
+					<chance>50.0</chance>
+				</li>
+			</alienslavekinds>
+			<alienrefugeekinds>
+				<li>
+					<kindDefs>
+						<li>SynthoRefugee</li>
+					</kindDefs>
+					<chance>50.0</chance>
+				</li>
+			</alienrefugeekinds>
+			<alienwandererkinds>
+        <li>
+            <pawnKindEntries>
+                <li>
+                    <kindDefs>
+                        <li>Syntho</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </pawnKindEntries>
+            <factionDefs>
+                <li>PlayerColony</li> 
+            </factionDefs>
+        </li>
+    </alienwandererkinds>
+        </pawnKindSettings>
+		
+<PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>SynthoClone</defName>
+    <label>Syntho</label>
+    <race>Alien_Syntho</race>
+	<defaultFactionType>SynthoColony</defaultFactionType>
+	<combatPower>50</combatPower>
+	    <apparelMoney>
+      <min>0</min>
+      <max>0</max>
+    </apparelMoney>
+	<backstoryFilters>
+      <li>
+        <categories>
+          <li>SynthoBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+</PawnKindDef>
+
 </Defs>

@@ -28,16 +28,16 @@
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>EnargoMealS</thingDef>
-				<count>152</count>
+				<count>62</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>GlitterworldMedicine</thingDef>
+				<thingDef>MedicineUltratech</thingDef>
 				<count>30</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
-				<thingDef>Component</thingDef>
+				<thingDef>ComponentIndustrial</thingDef>
 				<count>30</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
 	<ThingDef ParentName="PlantBase">
 		<defName>PlantEnargo</defName>
 		<label>Enargo plant</label>
-		<description>A small flower that stores solar energy using it's pedals in a small biochemical cell in it's stem.</description>
+		<description>This small bulb sit's comfortably with it's hard, grey end just under the surface of the soil. A large blue pod grows out of the center of the shoots, storing solar energy and minerals.</description>
 		<statBases>
+			<Nutrition>0.15</Nutrition>
 		    <ComfyTemperatureMin>0</ComfyTemperatureMin>
-       <ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MaxHitPoints>85</MaxHitPoints>
 		</statBases>
 		<graphicData>
@@ -17,29 +17,32 @@
 		</graphicData>
 		<selectable>true</selectable>
 		<pathCost>10</pathCost>
-		<ingestible>
-			<nutrition>0.0</nutrition>
-			<preferability>NeverForNutrition</preferability>
-		</ingestible>
+		<ingestible />
 		<plant>
-			<fertilitySensitivity>1.0</fertilitySensitivity>
-			<dieIfLeafless>true</dieIfLeafless>
-			<reproduces>false</reproduces>
+			<fertilitySensitivity>0.25</fertilitySensitivity>
+			<fertilityMin>0</fertilityMin>
+			<dieIfLeafless>false</dieIfLeafless>
 			<maxMeshCount>4</maxMeshCount>
+			<harvestMinGrowth>0.80</harvestMinGrowth>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>RawEnargo</harvestedThingDef>
-			<harvestYield>10</harvestYield>
+			<harvestYield>4</harvestYield>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
 			<topWindExposure>0.1</topWindExposure>
-			<growDays>11</growDays>
-			<visualSizeRange>
-				<min>0.3</min>
-				<max>0.8</max>
-			</visualSizeRange>
+			<immatureGraphicPath>Enargo/Plant/ImmatureEnargo</immatureGraphicPath>
+			<growDays>2.7</growDays>
+			<visualSizeRange>0.4~0.7</visualSizeRange>
+			<purpose>Food</purpose>
+			<sowResearchPrerequisites>
+				<li>EnargoPlanting</li>
+			</sowResearchPrerequisites>
+			<sowWork>120</sowWork>
+			<harvestWork>175</harvestWork>
+			<growMinGlow>0.3</growMinGlow>
+			<growOptimalGlow>1</growOptimalGlow>
 		</plant>
 	</ThingDef>
-
 </Defs>

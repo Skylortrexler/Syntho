@@ -27,8 +27,8 @@
 			<Mass>2.5</Mass>
 			<ArmorRating_Sharp>0.15</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>-30</Insulation_Cold>
-			<Insulation_Heat>-5</Insulation_Heat>
+			<Insulation_Cold>0</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.05</MoveSpeed>
@@ -58,6 +58,7 @@
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 			</recipeUsers>
+			<researchPrerequisite>GlitterClothing</researchPrerequisite>
 		</recipeMaker>
 			<colorGenerator Class="ColorGenerator_Options">
 				<options>

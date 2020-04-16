@@ -14,7 +14,13 @@
     <defName>Syntho</defName>
     <label>colonist</label>
     <defaultFactionType>SynthoColony</defaultFactionType>
-    <backstoryCategory>Syntho</backstoryCategory>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>SynthoBackstory</li>
+        </categories>
+      </li>
+    </backstoryFilters>
 	    <apparelTags>
       <li>Syntho</li>
     </apparelTags>

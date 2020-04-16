@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Syntho Race</name>
-	<author>ChadSexington</author>
+	<name>Syntho Base</name>
+	<author>SkylorBeck</author>
+	<packageId>SkylorBeck.Syntho.Base</packageId>
 	<url>http://steamcommunity.com/sharedfiles/filedetails/?id=1234438466</url>
-	<targetVersion>0.18.0</targetVersion>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	<incompatibleWith />
 	<description>Synthetically created humanoids, commonly called "Synthos", are often used on Glitterworlds to do the things deemed "unwanted" by the populace. They are usually attractive, as anyone on the Glitterworlds would want their servants to be.
 
-[h1]Current Version:[/h1] [b]1.3[/b]
+[h1]Current Version:[/h1] [b]1.4.8[/b]
 
 [b]PLEASE SEE CHANGE NOTES FOR ALL PATCHES/UPDATES[/b]
+[h1]The update for 1.1 compatability was done quick and dirty with zero playtesting. Please report any bugs immediately[/h1]
+
 
 [h1]Features:[/h1]
 Playable vat grown Humanoids complete with backstories. All syntho are Vatgrown as children but their adulthood is random from a small pool of jobs.
-New plant, Enargo, a natual solar cell plant. Cannot be grown in hydroponics. Can only be planted by Syntho.
-New Meal, Enargo Meal. Requires Enargo to make. Can be made in stacks or singles. Can only be made by Syntho.
-New Power generation based on Enargo. Environmentally friendly.
-New clothing
-Two new melee weapons and a pistol. Craftable at the stations you would expect them to be.
+New plant, Enargo, a natual solar cell plant.
+New meals. Normal/Lavish/Paste. Made from Enargo at various stations.
+New power generation based on Enargo. Environmentally friendly. [b]*UPDATED TEXTURE*[/b]
+New clothing and armor.
+Two new melee weapons and two new guns. Craftable at the stations you would expect them to be.
 Custom start Scenario
 Lore friendly (albeit a bit shy on the details)
 Works with existing saves (Faction won't spawn unless you have a mod for that though)
-Works with EPOE and RBSE
-
+Works with EPOE and RBSE 
+Enargo Blender for converting old, normal food into fresh Enargo Paste. Should make it easier to start.
+E-Gazelle Found in the wild almost everywhere, produces an alternative to Enargo.
 
 [h1]The Stats:[/h1]
 Generally speaking, Syntho are about 25% better at everything physical. 
 Mental, however, they are less impressive with. They research 15% slower and learn 10% slower due to the rapid development of their bodies and brains.  
 They cannot eat normal food either and require energy from Enargo.
-Comfortable temperature for both Syntho and Enargo is 0C to 50C. 
+Comfortable temperature for both Syntho and Enargo is 10C to 30C. 
 They do not have parents.
-They cannot enjoy or hate drugs, as they can't use them.
 
 Glitter Pistol is extremely accurate at close range and moderately at medium but pretty bad at long range. It's also extremely light so don't bother using it as a melee weapon. High damage.
+Glitter Rifle is accurate at long range, but not at close range. About on par with assault rifle, but better at ranged combat in the long run.
 Glitter Knife is just an improved knife that's more expensive.
 Glitter Sword is much the same.
 
@@ -39,22 +58,15 @@ Glitter Sword is much the same.
 [img]https://i.imgur.com/rP18YOH.png[/img]
 They can live to about 250 years old, with most of them being between 20 and 120 years old.
 
-[h1]Planned Features[/h1]
-[list][*]More backstories - If you have suggestions please add them below.
-[*]More weapons
-[*]New limb attachments
-[*]More food options
-[*]Custom Traits and Thoughts.
-[*][strike]Clothing and[/strike] armors
-[*]Syntho specific production benches with items exclusive to them
-[*]MORE LORE[/list]
-
 [h1]Known Bugs[/h1]
 For some reason, sometimes males spawn with twintails regardless of that hair being tagged as female only.
-VR Camgirl spawns on males even though its commonality for males is set to 0 and its bodytype requirement is set to female.
-Wandering pawns that join of their own free will spawn with normal backstories and parent-child relations.
-Potential issue with EPOE that makes it so you can't install medical ribs on humans or androids. Unknown cause.
+Wandering pawns that join of their own free can spawn with normal backstories and parent-child relations.
 
 
-Hair imported from [url=http://steamcommunity.com/sharedfiles/filedetails/?id=725949967]Rimsenal-Rimhair[/url]</description>
+Like what I do?
+[url=https://ko-fi.com/chadsexington][img]https://i.imgur.com/Rw0ZpIx.png?1[/img][/url]
+
+Hair imported from [url=http://steamcommunity.com/sharedfiles/filedetails/?id=725949967]Rimsenal-Rimhair[/url]
+Updated weapon textures by friend Neil.
+and special thanks to Pendragon for letting me bounce ideas off her.</description>
 </ModMetaData>

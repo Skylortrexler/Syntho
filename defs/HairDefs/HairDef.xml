@@ -2,7 +2,7 @@
 <Defs>
 
 	<HairDef>
-		<label>Bushy</label>
+		<label>SBushy</label>
 		<texPath>Syntho/Hair/Bushy</texPath>
 		<defName>Bushy</defName>
 			<hairTags>
@@ -11,7 +11,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
   	<HairDef>
-		<label>Braid</label>
+		<label>SBraid</label>
 		<texPath>Syntho/Hair/Braid</texPath>
 		<defName>Braid</defName>
 			<hairTags>
@@ -20,7 +20,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	<HairDef>
-		<label>Breaker</label>
+		<label>SBreaker</label>
 		<texPath>Syntho/Hair/Breaker</texPath>
 		<defName>Breaker</defName>
 			<hairTags>
@@ -29,7 +29,7 @@
 		<hairGender>MaleUsually</hairGender>
 	</HairDef>
 	<HairDef>
-		<label>Bunches</label>
+		<label>SBunches</label>
 		<texPath>Syntho/Hair/Bunches</texPath>
 		<defName>Bunches</defName>
 			<hairTags>
@@ -38,7 +38,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	<HairDef>
-		<label>ClassyF</label>
+		<label>SClassyF</label>
 		<texPath>Syntho/Hair/ClassyF</texPath>
 		<defName>ClassyF</defName>
 			<hairTags>
@@ -47,7 +47,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 		<HairDef>
-		<label>ClassyM</label>
+		<label>SClassyM</label>
 		<texPath>Syntho/Hair/ClassyM</texPath>
 		<defName>ClassyM</defName>
 			<hairTags>
@@ -56,7 +56,7 @@
 		<hairGender>Male</hairGender>
 	</HairDef>
 	<HairDef>
-		<label>Fauxhawk</label>
+		<label>SFauxhawk</label>
 		<texPath>Syntho/Hair/Fauxhawk</texPath>
 		<defName>Fauxhawk</defName>
 			<hairTags>
@@ -65,7 +65,7 @@
 		<hairGender>FemaleUsually</hairGender>
 	</HairDef>
    	<HairDef>
-		<label>FemShort</label>
+		<label>SFemShort</label>
 		<texPath>Syntho/Hair/FemShort</texPath>
 		<defName>FemShort</defName>
 			<hairTags>
@@ -74,7 +74,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	   	<HairDef>
-		<label>HalfShaved</label>
+		<label>SHalfShaved</label>
 		<texPath>Syntho/Hair/HalfShaved</texPath>
 		<defName>HalfShaved</defName>
 			<hairTags>
@@ -83,7 +83,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	   	<HairDef>
-		<label>Hime</label>
+		<label>SHime</label>
 		<texPath>Syntho/Hair/Hime</texPath>
 		<defName>Hime</defName>
 			<hairTags>
@@ -92,7 +92,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	   	<HairDef>
-		<label>Layered</label>
+		<label>SLayered</label>
 		<texPath>Syntho/Hair/Layered</texPath>
 		<defName>Layered</defName>
 			<hairTags>
@@ -101,7 +101,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	   	<HairDef>
-		<label>Neat</label>
+		<label>SNeat</label>
 		<texPath>Syntho/Hair/Neat</texPath>
 		<defName>Neat</defName>
 			<hairTags>
@@ -110,7 +110,7 @@
 		<hairGender>Any</hairGender>
 	</HairDef>
 	   	<HairDef>
-		<label>StraightLong</label>
+		<label>SStraightLong</label>
 		<texPath>Syntho/Hair/StraightLong</texPath>
 		<defName>StraightLong</defName>
 			<hairTags>
@@ -118,7 +118,7 @@
 			</hairTags>
 		<hairGender>Female</hairGender>
 	</HairDef>
-	   	<HairDef>
+	   	<!--HairDef>
 		<label>SweptBack</label>
 		<texPath>Syntho/Hair/SweptBack</texPath>
 		<defName>SweptBack</defName>
@@ -126,9 +126,9 @@
 		<li>Syntho</li>
 			</hairTags>
 		<hairGender>Male</hairGender>
-	</HairDef>
+	</HairDef-->
 		   	<HairDef>
-		<label>Short</label>
+		<label>SShort</label>
 		<texPath>Syntho/Hair/short</texPath>
 		<defName>Short</defName>
 			<hairTags>
@@ -137,7 +137,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 	<HairDef>
-		<label>Twin</label>
+		<label>STwin</label>
 		<texPath>Syntho/Hair/twin</texPath>
 		<defName>Twin</defName>
 			<hairTags>
@@ -146,7 +146,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 		   	<HairDef>
-		<label>Long</label>
+		<label>SLong</label>
 		<texPath>Syntho/Hair/long</texPath>
 		<defName>Long</defName>
 			<hairTags>
@@ -155,7 +155,7 @@
 		<hairGender>Female</hairGender>
 	</HairDef>
 		   	<HairDef>
-		<label>Pony</label>
+		<label>SPony</label>
 		<texPath>Syntho/Hair/pony</texPath>
 		<defName>Pony</defName>
 			<hairTags>
@@ -172,7 +172,7 @@
 			</hairTags>
 		<hairGender>Male</hairGender>
 	</HairDef-->
-		   	<HairDef>
+		   	<!--HairDef>
 		<label>Warrior</label>
 		<texPath>Syntho/Hair/Warrior</texPath>
 		<defName>Warrior</defName>
@@ -180,7 +180,7 @@
 		<li>Syntho</li>
 			</hairTags>
 		<hairGender>Male</hairGender>
-	</HairDef>
+	</HairDef-->
 	
  </Defs>
   

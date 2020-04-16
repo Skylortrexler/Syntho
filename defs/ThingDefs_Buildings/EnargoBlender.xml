@@ -5,7 +5,7 @@
     <thingClass>Building_WorkTable</thingClass>
     <description>A seemingly magic blender that can turn almost anything into a blue, energy filled paste.</description>
     <graphicData>
-      <texPath>Building/Blender</texPath>
+      <texPath>Building/Blender/Blender</texPath>
       <drawSize>(3,1.25)</drawSize>
 	  <graphicClass>Graphic_Multi</graphicClass>
 	  <shaderType>CutoutComplex</shaderType>
@@ -19,7 +19,7 @@
     <constructEffect>ConstructMetal</constructEffect>
     <costList>
       <Steel>75</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
@@ -46,8 +46,7 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
-        <basePowerConsumption>150</basePowerConsumption>
+        <basePowerConsumption>120</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -57,7 +56,8 @@
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
     <researchPrerequisites>
-      <li>Electricity</li>
+      <!--li>Electricity</li-->
+	  <li>EnargoBlendTech</li>
     </researchPrerequisites>
   </ThingDef>
   </Defs>

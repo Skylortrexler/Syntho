@@ -4,15 +4,19 @@
     <label>enargo generator</label>
     <thingClass>Building</thingClass>
     <graphicData>
-      <texPath>Generator/EnargoGenerator</texPath>
+      <texPath>Building/Generator/EnargoGenerator</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
+       <drawSize>(1.5,2.25)</drawSize>
+	  <shadowData>
+        <volume>(1.5, 2, 1)</volume>
+        <offset>(0,0,-0.5)</offset>
+      </shadowData>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>150</pathCost>
-    <blockWind>true</blockWind>
-    <fillPercent>1.0</fillPercent>
+    <blockWind>false</blockWind>
+    <fillPercent>0.25</fillPercent>
     <castEdgeShadows>false</castEdgeShadows>
     <rotatable>false</rotatable>
     <statBases>
@@ -26,7 +30,7 @@
     <size>(2,2)</size>
     <costList>
       <Steel>100</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
 	  <RawEnargo>20</RawEnargo>
     </costList>
     <comps>
@@ -37,28 +41,28 @@
       </li>
       <li Class="CompProperties_Flickable" />
       <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>25.0</fuelConsumptionRate>
-        <fuelCapacity>150.0</fuelCapacity>
+        <fuelConsumptionRate>15</fuelConsumptionRate>
+        <fuelCapacity>30.0</fuelCapacity>
         <fuelFilter>
           <thingDefs>
             <li>RawEnargo</li>
+			<!--li>MiniEnargo</li-->
           </thingDefs>
         </fuelFilter>
       </li>
       <li Class="CompProperties_Glower">
-        <glowRadius>6</glowRadius>
-        <glowColor>(10,128,245,0)</glowColor>
+        <glowRadius>4</glowRadius>
+        <glowColor>(10,190,255,0)</glowColor>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>Power</designationCategory>
-    <staticSunShadowHeight>0.5</staticSunShadowHeight>
     <designationHotKey>Misc3</designationHotKey>
     <constructEffect>ConstructMetal</constructEffect>
     <researchPrerequisites>
-      <li>Electricity</li>
+      <li>EnargoPower</li>
     </researchPrerequisites>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
   </Defs>

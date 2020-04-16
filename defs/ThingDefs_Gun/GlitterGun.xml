@@ -39,26 +39,30 @@
     <label>Glitter Pistol</label>
     <description>An extremely complex pistol found on Glitterworlds used by many for self defense.</description>
     <graphicData>
-      <texPath>Gun/GlitterGun</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+		<texPath>Gun/GlitterGun</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <soundInteract>InteractRevolver</soundInteract>
+    <soundInteract>Interact_Revolver</soundInteract>
     <statBases>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>8000</WorkToMake>
       <Mass>1.4</Mass>
       <AccuracyTouch>0.99</AccuracyTouch>
       <AccuracyShort>0.95</AccuracyShort>
       <AccuracyMedium>0.65</AccuracyMedium>
       <AccuracyLong>0.25</AccuracyLong>
       <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.2</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>EliteGun</li>
     </weaponTags>
+	<recipeMaker>
+      <researchPrerequisite>GlitterGunTech1</researchPrerequisite>
+    </recipeMaker>
     <costList>
       <Plasteel>10</Plasteel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
+	  <RawEnargo>10</RawEnargo>
     </costList>
 <costStuffCount>30</costStuffCount>
 		<stuffCategories>
@@ -71,7 +75,7 @@
         <defaultProjectile>Bullet_GlitterP</defaultProjectile>
         <warmupTime>0.2</warmupTime>
         <range>35</range>
-        <soundCast>ShotRevolver</soundCast>
+        <soundCast>Shot_Revolver</soundCast>
         <soundCastTail>GunTail_Light</soundCastTail>
         <muzzleFlashScale>10</muzzleFlashScale>
       </li>
@@ -110,12 +114,13 @@
     <label>Glitter Rifle</label>
     <description>This high-tech rifle fires a two round burst. Standard issue for all Enforcers.</description>
     <graphicData>
-      <texPath>Gun/GlitterRifle</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+		<texPath>Gun/GlitterRifle</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+ 		<shaderType>CutoutComplex</shaderType>
     </graphicData>
-    <soundInteract>InteractRifle</soundInteract>
+    <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>GlitterGunTech2</researchPrerequisite>
     </recipeMaker>
     <statBases>
       <WorkToMake>45000</WorkToMake>
@@ -125,11 +130,11 @@
       <AccuracyMedium>0.82</AccuracyMedium>
       <AccuracyLong>0.90</AccuracyLong>
       <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
-      <Weapon_Bulk>0.75</Weapon_Bulk>
     </statBases>
 	<costList>
       <Plasteel>20</Plasteel>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
+	  <RawEnargo>20</RawEnargo>
     </costList>
 	<costStuffCount>60</costStuffCount>
 		<stuffCategories>
@@ -144,7 +149,7 @@
         <range>39</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>ShotAssaultRifle</soundCast>
+        <soundCast>Shot_AssaultRifle</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -173,31 +178,22 @@
     </tools>
   </ThingDef>
   
-  <!--Sounds-Doesnt work>
-  
-    <SoundDef>
-    <defName>ShotGlitterRifle</defName>  
+  <!--SoundDef>
+    <defName>Shot_Glitter</defName>  
     <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
+    <eventNames />    
+    <maxSimultaneous>3</maxSimultaneous>  
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Clip">
-		  <li Class="AudioGrain_Folder">
+          <li Class="AudioGrain_Folder">
             <clipFolderPath>Sounds/GlitterRifle</clipFolderPath>
-			<clipPath>Sounds/GlitterRifle</clipPath>
           </li>
         </grains>      
         <volumeRange>
-          <min>45.2941</min>        
-          <max>45.2941</max>
-        </volumeRange>      
-        <pitchRange>
-          <min>1.091765</min>        
-          <max>1</max>
-        </pitchRange>      
-        <sustainLoop>False</sustainLoop>
+          <min>33.52942</min>        
+          <max>33.52942</max>
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef-->

@@ -54,6 +54,7 @@
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoPlanting</researchPrerequisite>
 	</RecipeDef>
 	
 		<RecipeDef> <!--Name="CookMealEnargoStack" ParentName="CookMealBase"-->
@@ -105,6 +106,7 @@
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoPlanting</researchPrerequisite>
 	</RecipeDef>
 	
 	<!--RecipeDef> 
@@ -169,16 +171,16 @@
 						<li>MiniEnargo</li>
 					</thingDefs>
 				</filter>
-				<count>0.2</count>
+				<count>0.4</count>
 			</li>
-			<li>
+			<!--li>
 				<filter>
 					<thingDefs>
 						<li>LiquidEnargo</li>
 					</thingDefs>
 				</filter>
 				<count>0.2</count>
-			</li>
+			</li-->
 		</ingredients>
 		<products>
 			<EnargoMealL>1</EnargoMealL>
@@ -187,7 +189,7 @@
 			<thingDefs>
 				<li>RawEnargo</li>
 				<li>MiniEnargo</li>
-				<li>LiquidEnargo</li>
+				<!--li>LiquidEnargo</li-->
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Cooking</workSkill>
@@ -196,6 +198,7 @@
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoPlanting</researchPrerequisite>
 	</RecipeDef>
 	
 		<RecipeDef> <!--Name="CookMealEnargoStack" ParentName="CookMealBase"-->
@@ -224,16 +227,16 @@
 						<li>MiniEnargo</li>
 					</thingDefs>
 				</filter>
-				<count>2.0</count>
+				<count>4.0</count>
 			</li>
-			<li>
+			<!--li>
 				<filter>
 					<thingDefs>
 						<li>LiquidEnargo</li>
 					</thingDefs>
 				</filter>
 				<count>2.0</count>
-			</li>
+			</li-->
 		</ingredients>
 		<products>
 			<EnargoMealL>10</EnargoMealL>
@@ -242,7 +245,7 @@
 			<thingDefs>
 				<li>RawEnargo</li>
 				<li>MiniEnargo</li>
-				<li>LiquidEnargo</li>
+				<!--li>LiquidEnargo</li-->
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Cooking</workSkill>
@@ -251,6 +254,7 @@
 			<li>ElectricStove</li>
 			<li>FueledStove</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoPlanting</researchPrerequisite>
 	</RecipeDef>
 	
 		<RecipeDef ParentName="CookMealBase">
@@ -283,6 +287,7 @@
 				<recipeUsers>
 			<li>EnargoBlender</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoBlendTech</researchPrerequisite>
   </RecipeDef>
 
 			<RecipeDef ParentName="CookMealBase">
@@ -315,5 +320,6 @@
 			<recipeUsers>
 			<li>EnargoBlender</li>
 		</recipeUsers>
+		<researchPrerequisite>EnargoBlendTech</researchPrerequisite>
   </RecipeDef>
 </Defs>
