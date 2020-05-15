@@ -111,7 +111,7 @@ Removed slave as per vanilla changes
 removed all traces of cloning to prepare for a big patch - sorry I just really wasn't happy with how it came out.
 
 
-1.5
+1.5 - Rebirth
 updated weapon textures with masks and better coloring
 Tweaked Enargo to grow faster with lower yeild and less work to sew and harvest as well as requiring at least 30% sunlight but growing full speed at 100% sunlight. It will now be plantable in all soils with the soil quality impacting the growth by 25%. This means, in fertile soil at peak daylight, it will grow at 110%. This also means you can technically grow indoors without sunlight, albeit at about 1/5th normal speed.
 lowered comfortable range to be lower than humans overall. 
@@ -120,89 +120,25 @@ updated fleshtype to use syntho variant
 syntho can get age diseases again, as well as a new exclusive disease - Cellular Degeneration. It's brutal.
 scenario starting meals changed from 152 to 62. With the enargo changes, you should be able to get a small harvest done before starving.
 enargo provides 0.15 nutrition as a plant now
+overcoat and bodysuit use <StuffEffectMultiplier> now so making things with insulating fabrics actually helps them work better.
+updated bladed weapons to use stony too
+fixed enargo paste stacklimit being 10 instead of 25
+glitter guns have the Gun tag now and should spawn on raiders randomly.
+updated research tab to be more in-line with vanilla UI
+updated bulk recipies to match vanilla (x4)
+added thin, hulk and fat variants for overcoat and bodysuit
+Syntho can be thin and hulk now 
+renamed overcoat to shawl
+updated file structure to use version specific files.
+added patch for Blood and Stains. It will load automatically if you have BnS.
+added punk hairtag to syntho. Cant believe I missed that one.
+removed hairs. If you want more than vanilla hair, use Rimsenal or Vanilla Expanded
+added more backstories
+added a new start scenario. It should be pretty hard. Let me know what you think.
 
-
+1.5.1
+Fixed footprint sizes for BnS. 
+Updated BnS Patch to use the new method of coloring
+added support for peglegs and wooden feet
 
 todo:
-MORE backstories
-
-
-NAME     [PAWN_nameDef] 
-HE/SHE   [PAWN_pronoun]
-HIM/HER  [PAWN_objective]
-HIS/HER  [PAWN_possessive]
-
-Shooting
-Melee
-Construction
-Mining
-Cooking
-Plants
-Animals
-Crafting
-Artistic
-Medicine
-Social
-Intellectual
-
-• None
-• ManualDumb
-• ManualSkilled
-• Violent
-• Caring
-• Social
-• Intellectual
-• Animals
-• Artistic
-• Crafting
-• Cooking
-• Firefighting
-• Cleaning
-• Hauling
-• PlantWork
-• Mining
-
-
-<AlienRace.BackstoryDef>
-    <defName>!!!</defName>
-    <title>!!!</title>
-    <titleShort>!!!</titleShort>
-    <baseDescription>!!!</baseDescription>
-	<bodyTypeMale>Male</bodyTypeMale>
-	<bodyTypeFemale>Female</bodyTypeFemale>
-	<slot>Adulthood</slot>
-		<forcedTraits>
-			<li>
-				<defName>!!!</defName>
-				<degree>!!!</degree>
-				<Chance>!!!</chance>
-			</li>
-		</forcedTraits>
-		<spawnCategories>
-      <li>SynthoBackstory</li>
-		</spawnCategories>
-	 <skillGains>
-      <li>
-        <defName>!!!</defName>
-        <amount>!!!</amount>
-      </li>
-	  <li>
-        <defName>!!!</defName>
-        <amount>!!!</amount>
-      </li>
-	  </skillGains>
-	  <workDisables>
-        <li>!!!</li>
-	  </workDisables>
-	  <requiredWorkTags>
-		<li>!!!</li>
-      </requiredWorkTags>
-</AlienRace.BackstoryDef>
-
-plasteel 6
-gold 110
-enargo 112
-meat 20
-stone 100
-silver 300
-leather 100

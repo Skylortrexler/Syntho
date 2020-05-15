@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Syntho Base</name>
+	<name>Syntho</name>
 	<author>SkylorBeck</author>
 	<packageId>SkylorBeck.Syntho.Base</packageId>
 	<url>http://steamcommunity.com/sharedfiles/filedetails/?id=1234438466</url>
@@ -18,27 +18,30 @@
 	</loadBefore>
 	<loadAfter>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>goudaquiche.BloodAndStains</li>
 	</loadAfter>
 	<incompatibleWith />
 	<description>Synthetically created humanoids, commonly called "Synthos", are often used on Glitterworlds to do the things deemed "unwanted" by the populace. They are usually attractive, as anyone on the Glitterworlds would want their servants to be.
 
-[h1]Current Version:[/h1] [b]1.4.8[/b]
-
+[h1]Current Version:[/h1] [b]1.5[/b] 
 [b]PLEASE SEE CHANGE NOTES FOR ALL PATCHES/UPDATES[/b]
-[h1]The update for 1.1 compatability was done quick and dirty with zero playtesting. Please report any bugs immediately[/h1]
 
+[h1]GET THE EXPANSION HERE: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2082754464]Syntho:Phytotech[/url][/h1]
+
+[h1]*NEW IN 1.5*[/h1] Cellular Degeneration, a disease with no cure that eventually results in the part being destroyed. Good thing we have bionics, huh?
+Full support for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2075683887]Blood and Stains![/url]
 
 [h1]Features:[/h1]
 Playable vat grown Humanoids complete with backstories. All syntho are Vatgrown as children but their adulthood is random from a small pool of jobs.
-New plant, Enargo, a natual solar cell plant.
+New plant, Enargo, a natual solar cell plant. Grows in the sun.
 New meals. Normal/Lavish/Paste. Made from Enargo at various stations.
-New power generation based on Enargo. Environmentally friendly. [b]*UPDATED TEXTURE*[/b]
+New power generation based on Enargo. Environmentally friendly.
 New clothing and armor.
 Two new melee weapons and two new guns. Craftable at the stations you would expect them to be.
-Custom start Scenario
+Custom start Scenario (plus bonus hard scenario)
 Lore friendly (albeit a bit shy on the details)
 Works with existing saves (Faction won't spawn unless you have a mod for that though)
-Works with EPOE and RBSE 
+Works with EPOE and RBSE (Mostly, please report bugs)
 Enargo Blender for converting old, normal food into fresh Enargo Paste. Should make it easier to start.
 E-Gazelle Found in the wild almost everywhere, produces an alternative to Enargo.
 
@@ -46,7 +49,7 @@ E-Gazelle Found in the wild almost everywhere, produces an alternative to Enargo
 Generally speaking, Syntho are about 25% better at everything physical. 
 Mental, however, they are less impressive with. They research 15% slower and learn 10% slower due to the rapid development of their bodies and brains.  
 They cannot eat normal food either and require energy from Enargo.
-Comfortable temperature for both Syntho and Enargo is 10C to 30C. 
+Comfortable temperature for both Syntho is 14C to 24C. 
 They do not have parents.
 
 Glitter Pistol is extremely accurate at close range and moderately at medium but pretty bad at long range. It's also extremely light so don't bother using it as a melee weapon. High damage.
@@ -59,14 +62,12 @@ Glitter Sword is much the same.
 They can live to about 250 years old, with most of them being between 20 and 120 years old.
 
 [h1]Known Bugs[/h1]
-For some reason, sometimes males spawn with twintails regardless of that hair being tagged as female only.
 Wandering pawns that join of their own free can spawn with normal backstories and parent-child relations.
 
 
 Like what I do?
-[url=https://ko-fi.com/chadsexington][img]https://i.imgur.com/Rw0ZpIx.png?1[/img][/url]
+[url=https://ko-fi.com/skylorbeck][img]https://i.imgur.com/Rw0ZpIx.png?1[/img][/url]
 
-Hair imported from [url=http://steamcommunity.com/sharedfiles/filedetails/?id=725949967]Rimsenal-Rimhair[/url]
 Updated weapon textures by friend Neil.
 and special thanks to Pendragon for letting me bounce ideas off her.</description>
 </ModMetaData>

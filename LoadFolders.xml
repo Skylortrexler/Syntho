@@ -1,0 +1,6 @@
+<loadFolders>
+  <default>
+    <li>Common</li>
+	<li IfModActive="goudaquiche.BloodAndStains">BnSPatch</li>
+  </default>
+</loadFolders>
