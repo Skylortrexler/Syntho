@@ -141,4 +141,7 @@ Fixed footprint sizes for BnS.
 Updated BnS Patch to use the new method of coloring
 added support for peglegs and wooden feet
 
+
+1.5.2
+updated for new skin gen and rimworld 1.2
 todo:
